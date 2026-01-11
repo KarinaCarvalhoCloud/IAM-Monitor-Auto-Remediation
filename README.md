@@ -1,4 +1,4 @@
-# 🛡️ IAM Monitor: Auto-Remediação de Políticas de Acesso na AWS
+#  IAM Monitor: Auto-Remediação de Políticas de Acesso na AWS
 
 ![Status: Em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) 
 ![Foco: Segurança Cloud](https://img.shields.io/badge/Foco-SecOps%20%7C%20IAM%20%7C%20Compliance-red)
@@ -8,7 +8,7 @@ Este projeto implementa uma solução de **auto-remediação serverless** para p
 
 ---
 
-## 🎯 O Desafio: Ameaça de Escala de Privilégios
+##  O Desafio: Ameaça de Escala de Privilégios
 
 A gestão manual do IAM em ambientes dinâmicos leva inevitavelmente à criação acidental de políticas com permissões excessivas (ex: ações `*` ou `Recurso: *`). Estes são vetores críticos de ataque que permitem a um invasor **escalar privilégios** e acessar dados sensíveis.
 
@@ -18,7 +18,7 @@ A gestão manual do IAM em ambientes dinâmicos leva inevitavelmente à criaçã
 
 ---
 
-## ⚙️ Arquitetura de Auto-Remediação (SecOps)
+##  Arquitetura de Auto-Remediação (SecOps)
 
 O sistema opera em um fluxo de trabalho Serverless e orientado a eventos, crucial para a automação de **SecOps**:
 
@@ -34,7 +34,7 @@ O sistema opera em um fluxo de trabalho Serverless e orientado a eventos, crucia
 
 ---
 
-## 🐍 Detalhes da Implementação (Python / Boto3)
+##  Detalhes da Implementação (Python / Boto3)
 
 O coração deste projeto é o script Python da função Lambda, que garante uma lógica de inspeção rápida e segura.
 
@@ -45,7 +45,7 @@ O coração deste projeto é o script Python da função Lambda, que garante uma
 
 ---
 
-## 📈 Resultado e Impacto no Negócio
+##  Resultado e Impacto no Negócio
 
 Este projeto é uma prova da capacidade de construir soluções de **Segurança Orientada a Eventos**, fundamentais para a cultura de **SecOps**.
 
